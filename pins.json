@@ -1,0 +1,31 @@
+{
+  "freeze": "2026-09-11",
+  "note": "Recheck before quoting. These are GitHub tips, not Argent tags. Argent has no release.",
+  "pins": {
+    "silverscript": {
+      "repo": "kaspanet/silverscript",
+      "ref": "v1.0.0",
+      "sha": "3ed973335b59269293564805cc2c58a14595ec03",
+      "kind": "release-tag"
+    },
+    "argent": {
+      "repo": "argent-lang/argent",
+      "ref": "master",
+      "sha": "867b080b973f93d75c4b7ca8ce06950a963accbb",
+      "kind": "branch-tip",
+      "note": "PR #60 merge. No tag."
+    },
+    "argent-playground": {
+      "repo": "argent-lang/argent-playground",
+      "ref": "master",
+      "sha": "9402c7a079eaa00ef5d25150bcab7946988ca8b7",
+      "kind": "branch-tip"
+    },
+    "argent-template": {
+      "repo": "argent-lang/argent-template",
+      "ref": "master",
+      "sha": "a3d29d036e38ccb1026861f150452dc0d1cf9faf",
+      "kind": "branch-tip"
+    }
+  }
+}
