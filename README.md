@@ -55,7 +55,7 @@ Argent `master` is a moving branch. A matching pin is not a tag.
 - Silverscript v1.0.0 certifies Argent or an app built with either.
 - Artifact `check_consistency` proves the bytecode came from a trusted compiler.
 - Playground or template transactions were accepted on a Kaspa network.
-- Leader/delegate properties 3 and 4 hold while rules 5 and 6 are unimplemented.
+- On the 11 Sep freeze, do not treat properties 3 and 4 as settled while rules 5 and 6 were unimplemented. After #63, rules 5 and 6 compile. That is not a tag and not an audit of properties 3 and 4.
 
 Kill-if: selling this README as an audit · shipping Argent ICC in an STP till · quoting Argent `master` as a release · treating `check_consistency` as provenance.
 
