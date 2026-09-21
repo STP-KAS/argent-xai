@@ -31,6 +31,8 @@ Map: [kaspa-master-file](https://github.com/STP-KAS/kaspa-master-file). Collab n
 
 Silverscript **v1.0.0** shipped 9 Sep 2026 (`3ed9733`). Argent **PR #60** merged 10 Sep and pins that release. The compiler, generated `.sil`, portable artifacts, `argent-runtime`, playground demos, and template exist.
 
+Live `argent` master after this freeze: `e76ee07` (14 Sep, #63, rules 5 and 6 compile). `pins.json` still records the 11 Sep / #60 freeze, so `check.ps1` DRIFT is expected. Still no tag.
+
 Argent itself has **no GitHub release**. README still says not release-ready. Two leader/delegate compiler rules are marked **[NOT IMPLEMENTED]**:
 
 - Rule 5: continuation closure (`OpCovOutputCount(c) == OpAuthOutputCount(l)`)
