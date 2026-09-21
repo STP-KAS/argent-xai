@@ -33,12 +33,9 @@ Silverscript **v1.0.0** shipped 9 Sep 2026 (`3ed9733`). Argent **PR #60** merged
 
 Live `argent` master after this freeze: `e76ee07` (14 Sep, #63, rules 5 and 6 compile). `pins.json` still records the 11 Sep / #60 freeze, so `check.ps1` DRIFT is expected. Still no tag.
 
-Argent itself has **no GitHub release**. README still says not release-ready. Two leader/delegate compiler rules are marked **[NOT IMPLEMENTED]**:
+Argent itself has **no GitHub release**. README still says not release-ready.
 
-- Rule 5: continuation closure (`OpCovOutputCount(c) == OpAuthOutputCount(l)`)
-- Rule 6: zero-continuation position on a delegate-capable actor
-
-Until those compile into generated contracts, coordinated leader/delegate remains an application-level obligation. This desk does not use Argent ICC.
+On this 11 Sep freeze, rules 5 and 6 were marked **[NOT IMPLEMENTED]** (continuation closure, and zero-continuation position on a delegate-capable actor). **That sentence is the freeze.** [argent#63](https://github.com/argent-lang/argent/pull/63) (`e76ee07`, 14 Sep) compiles rules 5 and 6. Still no tag. This desk still does not put Argent ICC in a till.
 
 ## Pins
 
